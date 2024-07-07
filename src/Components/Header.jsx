@@ -7,7 +7,11 @@ export default function HeaderBar() {
   return (
     <div className="top-menu md:min-h-16 min-h-14 w-full flex items-center justify-between sticky top-0 absolute z-10 bg-black">
       <section className="flex items-center justify-center w-24 md:w-60">
-        <a className="flex items-center justify-center" href="/" target="_self">
+        <a
+          className="flex items-center justify-center"
+          href="/portfolio"
+          target="_self"
+        >
           <img
             className="w-6 md:w-10 h-2/4 mr-2"
             src={Devicon}
