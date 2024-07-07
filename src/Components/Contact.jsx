@@ -128,10 +128,14 @@ export default function Contact() {
             <p className="mb-2 text-center">Your message has been not sent!</p>
           )}
           {emailStatus === 2 && (
-            <p className="mb-2 text-center">Your message has been sent successfully!</p>
+            <p className="mb-2 text-center">
+              Your message has been sent successfully!
+            </p>
           )}
           {emailStatus === 1 && (
-            <p className="mb-2 text-center">Please wait! We are sending your message.</p>
+            <p className="mb-2 text-center">
+              Please wait! We are sending your message.
+            </p>
           )}
         </form>
       </div>
@@ -143,7 +147,7 @@ export default function Contact() {
             className="p-2 flex items-center"
           >
             <img
-              className="p-1 bg-gray-700 rounded-full flex mr-2"
+              className="w-6 md:w-10 p-1 bg-gray-700 rounded-full flex mr-2"
               src={gmail}
               width={35}
               alt="mail-logo"
@@ -152,7 +156,7 @@ export default function Contact() {
           </a>
           <a href="tel:+919360285114" className="p-2 flex items-center">
             <img
-              className="p-1 bg-gray-700 rounded-full flex mr-2"
+              className="w-6 md:w-10 p-1 bg-gray-700 rounded-full flex mr-2"
               src={tele}
               width={35}
               alt="tele-logo"
@@ -167,19 +171,34 @@ export default function Contact() {
             rel="noreferrer"
             className="p-1 bg-gray-700 rounded-full m-2"
           >
-            <img className="w-6 md:w-8" src={gitlogo} width={30} alt="git-logo"></img>
+            <img
+              className="w-4 md:w-8"
+              src={gitlogo}
+              width={30}
+              alt="git-logo"
+            ></img>
           </a>
           <a
             href="https://www.linkedin.com/in/praveeneswaran"
             className="p-1 bg-gray-700 rounded-full m-2"
           >
-            <img className="w-6 md:w-8" src={linkedin} width={30} alt="linkedin-logo"></img>
+            <img
+              className="w-4 md:w-8"
+              src={linkedin}
+              width={30}
+              alt="linkedin-logo"
+            ></img>
           </a>
           <a
             href="https://x.com/Praveeneswaran2"
             className="p-2 bg-gray-700 rounded-full m-2"
           >
-            <img className="w-5 md:w-6" src={twitter} width={20} alt="twitter-logo"></img>
+            <img
+              className="w-3 md:w-6"
+              src={twitter}
+              width={20}
+              alt="twitter-logo"
+            ></img>
           </a>
         </div>
       </div>

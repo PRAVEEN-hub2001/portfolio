@@ -7,7 +7,7 @@ import { Fade } from "react-awesome-reveal";
 export default function Project() {
   return (
     <section className="w-full h-full mb-10 pt-10 flex flex-col" id="project">
-      <div className="flex items-center justify-evenly">
+      <div className="flex items-center justify-evenly mb-2">
         <hr className="w-2/5" />
         <p className="text-base md:text-2xl font-semibold text-center pl-4 pr-4">
           Latest Project
@@ -17,7 +17,7 @@ export default function Project() {
       <Fade direction="left" duration={1000}>
         <div className="flex items-center justify-evenly">
           <div className="md:w-3/5 w-4/5 text-sm p-5 md:ml-10 mt-5 mb-5 flex items-center bg-gray-950 rounded-3xl ease-in duration-300 hover:scale-95 projects">
-            <div>
+            <div className="w-full md:w-auto">
               <h1 className="md:text-lg text-end font-semibold">
                 SelDirect Application
               </h1>
@@ -63,12 +63,12 @@ export default function Project() {
                 </p>
               </a>
             </div>
-            <div className="pl-5">
+            <div className="pl-5 hidden md:block">
               <img
                 className="rounded-lg border-2 border-solid border-gray-500"
                 src={seldirect}
                 width={500}
-                alt="freeshipping"
+                alt="seldirect-img"
               ></img>
             </div>
           </div>
@@ -79,7 +79,7 @@ export default function Project() {
         <div className="flex items-center justify-evenly">
           <div className="w-2/5 hidden md:block"></div>
           <div className="md:w-3/5 w-4/5 text-sm p-5 md:mr-10 flex items-center bg-gray-950 rounded-3xl ease-in duration-300 hover:scale-95 projects">
-            <div className="pr-5">
+            <div className="pr-5 hidden md:block">
               <img
                 className="rounded-lg border-2 border-solid border-gray-500"
                 src={freeshipping}
@@ -87,7 +87,7 @@ export default function Project() {
                 alt="freeshipping"
               ></img>
             </div>
-            <div>
+            <div className="w-full md:w-auto">
               <h1 className="md:text-lg font-semibold">
                 FreeShippingBar Application
               </h1>
@@ -140,7 +140,7 @@ export default function Project() {
       <Fade direction="left" duration={1000}>
         <div className="flex items-center justify-evenly">
           <div className="md:w-3/5 w-4/5 text-sm p-5 md:ml-10 mt-5 mb-5 flex items-center bg-gray-950 rounded-3xl ease-in duration-300 hover:scale-95 projects">
-            <div>
+            <div className="w-full md:w-auto">
               <h1 className="md:text-lg text-end font-semibold">
                 Register/Login Website
               </h1>
@@ -190,7 +190,7 @@ export default function Project() {
                 </p>
               </a>
             </div>
-            <div className="pl-5">
+            <div className="pl-5 hidden md:block">
               <img
                 className="rounded-lg border-2 border-solid border-gray-500"
                 src={login_register}
@@ -206,7 +206,7 @@ export default function Project() {
         <div className="flex items-center justify-evenly">
           <div className="w-2/5 hidden md:block"></div>
           <div className="w-4/5 md:w-3/5 text-sm p-5 md:mr-10 flex items-center bg-gray-950 rounded-3xl ease-in duration-300 hover:scale-95 projects">
-            <div className="pr-5">
+            <div className="pr-5 hidden md:block">
               <img
                 className="rounded-lg border-2 border-solid border-gray-500"
                 src={mobile_view}
@@ -214,7 +214,7 @@ export default function Project() {
                 alt="freeshipping"
               ></img>
             </div>
-            <div>
+            <div className="w-full md:w-auto">
               <h1 className="md:text-lg font-semibold">Mobile View Design</h1>
               <p className="text-justify text-xs md:text-base">
                 When designing for mobile, focus on responsive layouts with
