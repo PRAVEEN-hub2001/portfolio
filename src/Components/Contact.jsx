@@ -194,7 +194,7 @@ export default function Contact() {
             className="p-2 bg-gray-700 rounded-full m-2"
           >
             <img
-              className="w-3 md:w-6"
+              className="w-2 md:w-6"
               src={twitter}
               width={20}
               alt="twitter-logo"

@@ -25,7 +25,7 @@ export default function Home() {
           design trends and technologies, and committed to delivering
           high-quality, innovative web solutions.
         </p>
-        <div className="flex items-center justify-between mb-5 md:w-2/5 w-3/5">
+        <div className="flex items-center justify-between mb-5 md:w-2/5 w-2/4">
           <a
             href="https://github.com/PRAVEEN-hub2001"
             target="_blank"
@@ -33,7 +33,7 @@ export default function Home() {
             className="p-1 bg-gray-700 rounded-full hover:scale-110 projects ease-in duration-300"
           >
             <img
-              className="w-4 md:w-8"
+              className="w-5 md:w-8"
               src={gitlogo}
               width={30}
               alt="git-logo"
@@ -46,7 +46,7 @@ export default function Home() {
             className="p-1 bg-gray-700 rounded-full hover:scale-110 projects ease-in duration-300"
           >
             <img
-              className="w-4 md:w-8"
+              className="w-5 md:w-8"
               src={linkedin}
               width={30}
               alt="linkdein-logo"
@@ -59,7 +59,7 @@ export default function Home() {
             className="p-2 bg-gray-700 rounded-full h-full hover:scale-110 projects ease-in duration-300"
           >
             <img
-              className="w-3 md:w-6"
+              className="w-4 md:w-6"
               src={twitter}
               width={20}
               alt="twitter-logo"
@@ -70,7 +70,7 @@ export default function Home() {
             className="p-2 bg-gray-700 rounded-full h-full hover:scale-110 projects ease-in duration-300"
           >
             <img
-              className="w-4 md:w-8"
+              className="w-5 md:w-8"
               src={gmail}
               width={25}
               alt="gmail-logo"
