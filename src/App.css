@@ -7,7 +7,7 @@
 
 .main-page {
   background-image: url(./Images/background-img.webp);
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: left;
   height: 600px;
@@ -16,6 +16,7 @@
 @media only screen and (min-width: 600px) {
   .main-page {
     height: 530px;
+    background-size: cover;
   }
 
   .input-wrapper input,
