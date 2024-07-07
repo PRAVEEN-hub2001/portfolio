@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d64cb923.css",
+    "main.js": "/portfolio/static/js/main.f628b142.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Praveen_Resume.pdf": "/portfolio/static/media/Praveen_Resume.61ef7aa60792c5f0893c.pdf",
+    "static/media/firebase.png": "/portfolio/static/media/firebase.5aa7cf22cd45ec6bbec2.png",
+    "static/media/4707122.jpg": "/portfolio/static/media/4707122.a796d463d504ee63ffb8.jpg",
+    "static/media/Twitter-X-White-Logo-PNG.png": "/portfolio/static/media/Twitter-X-White-Logo-PNG.d3ba47f085be8e460cd8.png",
+    "static/media/node_js.png": "/portfolio/static/media/node_js.d980d9636ace07ad3dde.png",
+    "static/media/Screenshot 2024-06-18 081338.png": "/portfolio/static/media/Screenshot 2024-06-18 081338.f986a07d096d30fcb851.png",
+    "static/media/sel-direct-app-img.webp": "/portfolio/static/media/sel-direct-app-img.d8418b401765eaef7d97.webp",
+    "static/media/Screenshot 2024-06-18 074711.png": "/portfolio/static/media/Screenshot 2024-06-18 074711.bd3cb4a17c68a6e6d8ae.png",
+    "static/media/free-shipping-bar-img.webp": "/portfolio/static/media/free-shipping-bar-img.2d2ea8f4c4db2bb5def1.webp",
+    "static/media/pngwing.com.png": "/portfolio/static/media/pngwing.com.9f33c557b92e4e2e1cc8.png",
+    "static/media/javascript-39395.png": "/portfolio/static/media/javascript-39395.7f8751632b42a9932c15.png",
+    "static/media/cancel.png": "/portfolio/static/media/cancel.7bf3f4b001feb1aef023.png",
+    "static/media/react native_icon.png": "/portfolio/static/media/react native_icon.3b5049ea7908e9da3ba0.png",
+    "static/media/menu.png": "/portfolio/static/media/menu.23f3853457a197635ade.png",
+    "static/media/pngegg.png": "/portfolio/static/media/pngegg.562cd1af0dd60d5da40d.png",
+    "static/media/express.png": "/portfolio/static/media/express.39a0f4c3d981885c64f8.png",
+    "static/media/background-img.webp": "/portfolio/static/media/background-img.b21c72f4d0211ece22e3.webp",
+    "index.html": "/portfolio/index.html",
+    "main.d64cb923.css.map": "/portfolio/static/css/main.d64cb923.css.map",
+    "main.f628b142.js.map": "/portfolio/static/js/main.f628b142.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d64cb923.css",
+    "static/js/main.f628b142.js"
+  ]
+}
